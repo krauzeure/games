@@ -1,0 +1,18 @@
+.homepage-main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-main h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.link {
+    width: fit-content;
+    background: linear-gradient(45deg, var(--dark-green), var(--light-green));
+    padding: 10px 15px;
+    border-radius: 5px;
+}
