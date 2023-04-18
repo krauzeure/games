@@ -15,12 +15,18 @@
 }
 
 .popular-games-block img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
     padding: 10px;
     background-color: var(--light-grey);
     margin: 0 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 250ms ease-in-out;
+}
+
+.popular-games-block img:hover {
+    transform: scale(1.1);
 }
 
 .link {
