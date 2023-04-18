@@ -1,3 +1,43 @@
 .gamelist-main ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.gamelist-main {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gamelist-main h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.gamelist-main ul li {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--light-grey);
+    margin: 0 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 250ms ease-in-out;
+}
+
+.gamelist-main ul img {
+    width: 70px;
+    height: 70px;
+}
+
+.gamelist-main ul li:hover {
+    transform: scale(1.1);
+}
+
+.gamelist-main ul li p {
+    margin: 5px 0;
+}
+
+.gamelist-main ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
 }
