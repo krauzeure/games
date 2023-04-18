@@ -1,0 +1,14 @@
+.memory-board {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    margin: 30px auto;
+    padding-inline-start: 0;
+}
+
+.memory-board img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
