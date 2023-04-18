@@ -1,4 +1,5 @@
 import './Memory.css'
+import MemoryBoard from '../../../Components/Games/Memory/MemoryBoard/MemoryBoard'
 
 export default function Memory() {
   return (
@@ -10,6 +11,7 @@ export default function Memory() {
           <button>Démarrer</button>
         </div>
       </section>
+      <MemoryBoard />
     </main>
   )
 }
