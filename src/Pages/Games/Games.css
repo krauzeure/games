@@ -10,10 +10,6 @@
   align-items: center;
 }
 
-.gamelist-main h1 {
-  font-family: 'Playfair Display', serif;
-}
-
 .gamelist-main ul li {
     border-radius: 5px;
     padding: 10px;
