@@ -1,5 +1,6 @@
 import './Homepage.css'
 import Memory from './Memory.svg'
+import { Link } from 'react-router-dom'
 
 export default function Homepage() {
   return (
@@ -12,12 +13,12 @@ export default function Homepage() {
       <section className='popular-games'>
         <h2>Nos jeux les plus populaires</h2>
         <div className='popular-games-block'>
-          <img src={Memory} alt='memory' />
-          <img src={Memory} alt='memory' />
-          <img src={Memory} alt='memory' />
+          <Link to="/games"><img src={Memory} alt='memory' /></Link>
+          <Link to="/games"><img src={Memory} alt='memory' /></Link>
+          <Link to="/games"><img src={Memory} alt='memory' /></Link>
         </div>
       </section>
-      <div className='link'>Découvrir tous les jeux</div>
+      <Link to="/games" className='link'>Découvrir tous les jeux</Link>
     </main>
   )
 }
