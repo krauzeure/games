@@ -12,6 +12,10 @@ body {
   --light-grey: #c5d3cc;
 }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
