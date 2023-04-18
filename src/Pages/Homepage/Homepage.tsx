@@ -17,7 +17,7 @@ export default function Homepage() {
           <img src={Memory} alt='memory' />
         </div>
       </section>
-      <div className='link'>Découvrir les jeux</div>
+      <div className='link'>Découvrir tous les jeux</div>
     </main>
   )
 }
