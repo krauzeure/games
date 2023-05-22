@@ -18,7 +18,7 @@ export default function MemoryBoard() {
   return (
     <ul className='memory-board'>
       {memoryCards.map((item, index) => (
-        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} number={index} disabled={item.isDisabled} />
+        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} disabled={item.isDisabled} />
       ))}
     </ul>
   )
