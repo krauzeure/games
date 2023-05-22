@@ -1,4 +1,5 @@
 import { memoryCards } from '../../../../Data/memoryCards';
+import Card from '../Card/Card';
 import './MemoryBoard.css'
 
 // Creating a function to shuffle our array
@@ -17,9 +18,7 @@ export default function MemoryBoard() {
   return (
     <ul className='memory-board'>
       {memoryCards.map((item, index) => (
-        <li key={index}>
-          <img src={item.image} alt='memory' />
-        </li>
+        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} number={index} disabled={item.isDisabled} />
       ))}
     </ul>
   )
