@@ -11,6 +11,8 @@ export const shuffleArray = (array:any) => {
   }
 }
 
+shuffleArray(memoryCards)
+
 export default function MemoryBoard() {
   return (
     <ul className='memory-board'>
