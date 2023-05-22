@@ -1,4 +1,5 @@
 import React from 'react'
+import './Card.css' 
 
 export default function Card(props: {image: string, alt: string, hidden: boolean, number: number, disabled: boolean}) {
 
