@@ -10,97 +10,97 @@ import Neuer from '../Data/Images/Memory/Neuer.svg'
 export const memoryCards = [
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Goretzka",
         "image": Goretzka,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Kimmich",
         "image": Kimmich,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Lahm",
         "image": Lahm,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Muller",
         "image": Muller,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Neuer",
         "image": Neuer,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Ribery",
         "image": Ribery,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Robben",
         "image": Robben,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Schweinsteiger",
         "image": Schweinsteiger,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Goretzka",
         "image": Goretzka,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Kimmich",
         "image": Kimmich,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Lahm",
         "image": Lahm,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Muller",
         "image": Muller,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Neuer",
         "image": Neuer,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Ribery",
         "image": Ribery,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Robben",
         "image": Robben,
         "isHidden": true
     },
     {
         "isDisabled": false,
-        "name": "react",
+        "name": "Schweinsteiger",
         "image": Schweinsteiger,
         "isHidden": true
     }
