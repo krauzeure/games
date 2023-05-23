@@ -1,6 +1,8 @@
 import { memoryCards } from '../../../../Data/memoryCards';
 import Card from '../Card/Card';
 import './MemoryBoard.css'
+import { useContext } from 'react';
+import gameBoardContext from '../../../../Context/Memory/gameBoardContext';
 
 // Creating a function to shuffle our array
 export const shuffleArray = (array:any) => {
@@ -15,10 +17,15 @@ export const shuffleArray = (array:any) => {
 shuffleArray(memoryCards)
 
 export default function MemoryBoard() {
+
+  const gameBoard = useContext(gameBoardContext)
+  // @ts-ignore
+  console.log(gameBoard.gameBoard)
+
   return (
     <ul className='memory-board'>
       {memoryCards.map((item, index) => (
-        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} number={index} disabled={item.isDisabled} />
+        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} disabled={item.isDisabled} />
       ))}
     </ul>
   )
