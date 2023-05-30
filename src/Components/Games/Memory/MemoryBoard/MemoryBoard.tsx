@@ -19,13 +19,16 @@ shuffleArray(memoryCards)
 export default function MemoryBoard() {
 
   const gameBoard = useContext(gameBoardContext)
+  const turnCard = (number: number) => {
+    console.log(number)
+  }
   // @ts-ignore
   console.log(gameBoard.gameBoard)
 
   return (
     <ul className='memory-board'>
       {memoryCards.map((item, index) => (
-        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} disabled={item.isDisabled} />
+        <Card image={item.image} alt={item.name} key={`${index}-${item.name}`} hidden={item.isHidden} disabled={item.isDisabled} number={index} turnCard={turnCard}/>
       ))}
     </ul>
   )
