@@ -2,11 +2,12 @@ import './Memory.css'
 import MemoryBoard from '../../../Components/Games/Memory/MemoryBoard/MemoryBoard'
 import { memoryCards } from '../../../Data/memoryCards';
 import { useState } from 'react';
+import { MemoryCardType } from '../../../Types/memoryTypes'
 import gameBoardContext from '../../../Context/Memory/gameBoardContext';
 
 export default function Memory() {
 
-  const [gameBoard, setGameBoard] = useState(memoryCards);
+  const [gameBoard, setGameBoard] = useState<MemoryCardType[]>(memoryCards);
 
   return (
     // @ts-ignore
